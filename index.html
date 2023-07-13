@@ -11,27 +11,29 @@
             #header{
                 color: white;
                 /* position: absolute; */
-                font-size: 200px;
+                font-size: 120px;
                 margin-left: 150px;
-                margin-top: 80px;
+                margin-top: 30px;
                 margin-bottom: 0px;
                 text-shadow: 1px 1px 22px rgba(251,204,20,0.77);
+                /* transform: scale(30%); */
             }
             #tagline{
                 color:darkgray;
                 /* position: absolute; */
                 font-size: 40px;
                 margin-top: 0%;
-                margin-left: 1000px;
+                margin-left: 600px;
             }
             body{
                
                 background-image: url(bg-home1.jpg);
-                background-color: rgba(0, 0, 0, 0.5);
+                background-color: rgb(0, 0, 0);
                 width: 100%;
                 height: 100vh;
                 background-position: top center;
-                background-size: cover;    
+                background-size: cover;   
+                background-repeat: no-repeat; 
                 margin: auto;
             }
             #download-section{
@@ -40,24 +42,25 @@
                 width: 48%;
                 align-items: end;
                 margin-top: 20%;
-                margin-right: 19px;
+                margin-right: 0;
                 /* border: 3px solid rgba(255, 0, 0, 0.164); */
-                margin-left: 1400px;
+                margin-left: 880px;
                 padding: 2%;
                 padding-right: 0%;
                 padding-bottom: 1.5%;
             }
             #demo-section{
-                padding-left: 250px;
+                padding-left: 200px;
                 float: left;
                 width: 48%;
                 /* font-size: 10px; */
                 margin-top: 25%;
+                margin-left: 0;
                 /* border: 3px solid red; */
                 
             }
             .stylebtns{
-                font-size: 30px;
+                font-size: 20px;
                 margin-top: 3%;
             }
             /* #btn-1{
@@ -72,7 +75,7 @@
                 padding-right: 20px;
             }
             #demobtn{
-                font-size: 40px;
+                font-size: 20px;
                 padding:10px 50px;
                 
             }
@@ -94,6 +97,23 @@
                 color: #fff;
                 /* border: 3px solid; */
             }
+            #contact-section{
+                
+                margin-left: 86%;
+                margin-top: 1.5%;
+                
+            }
+            #contact-section a{
+                color: rgba(255, 255, 255, 0.521);
+                font-size: 15px;
+            }
+            #contact-section a:hover{
+                color: rgba(255, 255, 255, 0.959);
+                font-size: 20px;
+                /* border: 1.5px rgba(41, 53, 54, 0.589) solid; */
+                text-decoration: none;
+                padding: 7px;
+            }
            
 
         </style>
@@ -108,7 +128,7 @@
             </a>
         </div>
         <div id="download-section">
-            <div style="color: rgba(255, 253, 249, 0.445); font-size: 40px; padding-left: 80px;">Download Code:<br /></div>
+            <div style="color: rgba(255, 253, 249, 0.445); font-size: 20px; padding-left: 80px;">Download Code:<br /></div>
             <a href="download/style1.zip" target="_blank" class="btn btn-outline-danger stylebtns" id="btn-1" role="button">
                 Style 1
             </a>
@@ -118,6 +138,9 @@
             <a href="download/style3.zip" target="_blank" class="btn btn-outline-primary stylebtns" id="btn-3" role="button">
                 Style 3
             </a>
+        </div>
+        <div id="contact-section">
+            <a href="contact.html">Contact Us</a>
         </div>
     </body>
     
